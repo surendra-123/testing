@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          margin: 0;
+        }
+        
+        html {
+          box-sizing: border-box;
+        }
+        
+        *, *:before, *:after {
+          box-sizing: inherit;
+        }
+        
+        .column {
+          float: left;
+          width: 25%;
+          margin-bottom: 16px;
+          padding: 0 8px;
+        }
+        
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          margin: 8px;
+        }
+        
+        .about-section {
+          padding: 5px;
+          text-align: center;
+          color: rgb(0, 0, 0);
+           width:auto;
+         
+        }
+        
+        .container {
+          padding: 2px;
+        }
+        
+        .container::after, .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        .title {
+          color: rgb(0, 0, 0);
+        }
+        
+        .button {
+          border: none;
+          outline: 0;
+          display: inline-block;
+          padding: 8px;
+          color: rgb(255, 255, 255);
+          background-color: #000;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+        }
+        
+        .button:hover {
+          background-color: #555;
+        }
+        .bg{
+            height:40em; background-size:cover; width:auto;
+          background-image:url('assets/images/kk');
+          background-position:50% 50%;
+          background-repeat: no-repeat;
+          }
+        
+        @media screen and (max-width: 200px) {
+          .column {
+            width: 100%;
+            display: block;
+          }
+        }
+        </style>
+</head>
+<body class="bg">
+    <h3><h1 align="center">MENU</h1></h3>
+   <div class="column">
+        <div class="card">
+          <img src="assets/images/nepolian pizza.jpg" alt="nepolian" style="width:100%">
+          <div class="container">
+            <h2>NEPOLIAN STYLE PIZZA</h2>
+            <p><button class="button">ORDER NOW</button></p>
+          </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+          <img src="assets/images/california.jpg" alt="california" style="width:100%">
+          <div class="container">
+            <h2>CALIFORNIA STYLE PIZZA</h2>
+            <p><button class="button">ORDER NOW</button></p>
+          </div>
+        </div>
+    </div><div class="column">
+        <div class="card">
+          <img src="assets/images/chicago.jpeg" alt="chicago" style="width:100%">
+          <div class="container">
+            <h2>CHICAGO STYLE PIZZA</h2>
+            <p><button class="button">ORDER NOW</button></p>
+          </div>
+        </div>
+    </div><div class="column">
+        <div class="card">
+          <img src="assets/images/detroit.jpg" alt="detroit" style="width:100%">
+          <div class="container">
+            <h2>DETROIT STYLE PIZZA</h2>
+            <p><button class="button">ORDER NOW</button></p>
+          </div>
+        </div>
+    </div><div class="column">
+        <div class="card">
+          <img src="assets/images/greek.jpg" alt="greek" style="width:100%">
+          <div class="container">
+            <h2>GREEK STYLE PIZZA</h2>
+            <p><button class="button">ORDER NOW</button></p>
+          </div>
+        </div>
+    </div><div class="column">
+        <div class="card">
+          <img src="assets/images/newyork.jpg" alt="newyork" style="width:100%">
+          <div class="container">
+            <h2>NEWYORK STYLE PIZZA</h2>
+            <p><button class="button">ORDER NOW</button></p>
+          </div>
+        </div>
+    </div><div class="column">
+        <div class="card">
+          <img src="assets/images/sicillian.jpeg" alt="sicillian" style="width:100%">
+          <div class="container">
+            <h2>SICILIAN STYLE PIZZA</h2>
+            <p><button class="button">ORDER NOW</button></p>
+          </div>
+        </div>
+    </div><div class="column">
+        <div class="card">
+          <img src="assets/images/stlouis.jpeg" alt="stlouis" style="width:100%">
+          <div class="container">
+            <h2>St'Loius STYLE PIZZA</h2>
+            <p><button class="button">ORDER NOW</button></p>
+          </div>
+        </div>
+    </div>
+    
+</body>
+</html>

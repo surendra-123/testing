@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 5px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+   width:auto;
+ 
+}
+
+.container {
+  padding: 2px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: rgb(0, 0, 0);
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: rgb(255, 255, 255);
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+.bg{
+    height:40em; background-size:cover; width:auto;
+  background-image:url('assets/images/kk1.jpg');
+  background-position:50% 50%;
+  }
+
+@media screen and (max-width: 200px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body class="bg">
+
+<div class="about-section">
+  <table width="60%" align="center">
+    <tr>
+      <td>
+        <h1>About Us</h1>
+        <p>The best stories in life have yummy endings.</p>
+        <p>We opened our first restaurant in the summer of 2019 in Hyderabad! Over a decade and multiple locations later, we has turned our passion for fresh, high-quality deep dish & thin crust pizza and genuine hospitality into a signature experience that can only be summed up as “Lazy's Pizza.”.</p>
+        <p>Lazy’s embodies what your favorite neighborhood restaurant should be a warm, welcoming place where you can share a delicious meal with friends and family and feel right at home. As we continue to grow and bring the Patxi’s experience to more communities across the country, we’ll stay true to our roots and never forget what makes each bite of our pizza so special. When you walk through our doors, you’re in for a treat!.</p> 
+        <p>When you sit down at our table, you’re family!.</p>
+      </td>
+    </tr>
+  </table>
+ 
+</div>
+<div class="about-section">
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="assets/images/geethika.jpeg" alt="Geethika" style="width:100%">
+      <div class="container">
+        <h2>Geethika</h2>
+        <p class="title">MD & Founder</p>
+        <p>Lazy's tradition started with her! The person who does not work for the love of money, but for the love of work..</p>
+        <p>geethika@lazys.com</p>
+        <p><button onclick="window.location.href='https://www.instagram.com/tiruveedulageethika/?hl=en'" class="button">Contact</button></p>
+      </div>
+    </div>
+</div>
+
+<div class="column">
+    <div class="card">
+      <img src="assets/images/surendra.jpeg" alt="Suri" style="width:100%">
+      <div class="container">
+        <h2>Suri</h2>
+        <p class="title">CEO</p>
+        <p>The person who believe in hardwork.Strength of Lazy's lies in his successful execution of perfect decisions.</p>
+        <p>suri@lazys.com</p>
+        <p><button onclick="window.location.href='https://www.instagram.com/stotri._.suri/?hl=en'" class="button">Contact</button></p>
+      </div>
+    </div>
+</div>
+
+<div class="column">
+    <div class="card">
+      <img src="assets/images/vaishnavi.jpeg" alt="Vaish" style="width:100%">
+      <div class="container">
+        <h2>Vaishnavi</h2>
+        <p class="title">R&D Executive</p>
+        <p>Person who built the nativity of Lazy's.The taste like mom's love isn't a myth!. Warmth of family lies in the roots.</p>
+        <p>vaish@lazys.com</p>
+        <p><button onclick="window.location.href='https://www.instagram.com/vaishu_yala/?hl=en'" class="button">Contact</button></p>
+      </div>
+    </div>
+</div>
+
+<div class="column">
+    <div class="card">
+      <img src="assets/images/gv.jpeg" alt="Vaishnavi" style="width:100%">
+      <div class="container">
+        <h2>Gv Vaishnavi</h2>
+        <p class="title">Production Manager</p>
+        <p>The person follows the following quote "Pure and domestic herbs and spices make Lazy's the best of mom's food."</p>
+        <p>vaishgv@lazys.com</p>
+        <p><button onclick="window.location.href='https://www.instagram.com/_unvaiajshh_/?hl=en'" class="button">Contact</button></p>
+      </div>
+    </div>
+</div>
+<div class="column">
+  <div class="card">
+    <img src="assets/images/pranavi.jpeg" alt="Pranavi" style="width:100%">
+    <div class="container">
+      <h2>Pranavi</h2>
+      <p class="title">Chief Financial Officer</p>
+      <p>The one who is responsible (directly or indirectly) for almost all of the corporation's financial matters.</p>
+      <p>pranavi@lazys.com</p>
+      <p><button onclick="window.location.href='https://www.instagram.com/_unvaiajshh_/?hl=en'" class="button">Contact</button></p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
